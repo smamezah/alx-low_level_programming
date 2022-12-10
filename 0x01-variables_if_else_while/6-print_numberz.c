@@ -2,12 +2,13 @@
 
 /**
  * main - write the decimal digits
- * Returns: return 0
+ * Return: returns 0
  */
 
 int main(void)
 {
 	int i = 0;
+
 	while (i < 10)
 	{
 		putchar(48 + i);
