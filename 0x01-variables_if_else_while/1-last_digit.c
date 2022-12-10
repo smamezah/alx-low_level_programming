@@ -4,7 +4,7 @@
 
 /**
  * main - This code is an if else code
- * Return : returns 0
+ * Return: This returns 0
  */
 
 int main(void)
