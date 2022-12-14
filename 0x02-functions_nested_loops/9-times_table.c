@@ -14,7 +14,7 @@ void times_table(void)
 
 		for (multy = 0; multy < 10; multy++)
 		{
-			prod = num * multy
+			prod = num * multy;
 			_putchar(',');
 			_putchar(' ');
 			_putchar(' ');
