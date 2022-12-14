@@ -5,6 +5,7 @@
  * @i : data type is int
  *
  * @j : data type is also int
+ * Return: return the sum
  */
 
 int add(int i, int j)
