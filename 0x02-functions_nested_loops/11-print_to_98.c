@@ -2,30 +2,22 @@
 #include "main.h"
 
 /**
- * print_to_98 - prints all numbers to 98
- * @n : data type is an int
+ * print_to_98 - print all numbers from n to 98
+ * @n : the sttarting number
  */
 
 void print_to_98(int n)
 {
-	int j;
-
-	if (n < 98)
+	if (n >= 98)
 	{
-		printf("%d", n);
-		for (j = n + 1; j <= 98; j++)
-			printf(", %d", j);
+		while (n > 98)
+			printf("%d, ", n--);
+		printf("%d\n", n);
 	}
-	else if (n == 98)
-		printf("%d", n);
-
 	else
 	{
-		printf("%d", n);
-		for (j = n - 1; j >= 98; j--)
-			printf(", %d", j);
+		while (n < 98)
+			print("%d, ", n++);
+		printf("%d\n", n);
 	}
-	printf("\n");
 }
-
-
