@@ -1,1 +1,1 @@
-This is reposirtory is for my low level programming projects
+This directory contain the projects I worked on when I was studying low level programming
